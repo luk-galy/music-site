@@ -1,0 +1,436 @@
+container {
+
+    width: 100%;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+@font-face {
+
+    font-family: "galada";
+
+    src: url(../assest/Galada/Galada-Regular.ttf);
+
+}
+
+@font-face {
+
+    font-family: "hammersmith-one";
+
+    src: url(../assest/hammersmith-one/HammersmithOne-Regular.ttf)
+
+}
+
+
+
+
+body {
+
+    background-color: #22013d;
+
+}
+
+.album-title {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    height: 30vh;
+
+    font-size: 90px;
+
+    color: #DA9E86;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    src: url(../assest/Galada/Galada-Regular.ttf);
+
+   
+
+}
+
+.header {
+
+    display: flex;
+
+    height: 100vh;
+
+    min-height: 100vh;
+
+}
+
+.header-title {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    width: 50%;
+
+    text-align: center;
+
+    font-size: 50px;
+
+    color: #ffe0e0;
+
+    padding: 30px;
+
+    font-family: "galada";
+
+    src: url(../assest/Galada/Galada-Regular.ttf);
+
+   
+
+}
+
+
+
+
+.header-cover {
+
+    display: flex;
+
+    width: 50%;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.header-cover img {
+
+    width: 70%;
+
+
+
+
+}
+
+.about {
+
+    display: flex;
+
+    width: 100%;
+
+    text-align: left;
+
+    /* width: 100%; */
+
+    font-size: 18px;
+
+    line-height: 30px;
+
+    color: #ffe0e0;
+
+    gap: 20px;
+
+    /* padding-left: 60%; */
+
+    padding-bottom: 10%;
+
+    font-family: "hammersmith-one";
+
+    src: url(../assest/hammersmith-one/HammersmithOne-Regular.ttf);
+
+    line-height: 30px;
+
+}
+
+.about-text {
+
+    display: flex;
+
+    flex-direction: column;
+
+    width: 50%;
+
+    padding-right: 80px;
+
+}
+
+.about-image {
+
+    display: flex;
+
+    width: 50%;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.about-image img {
+
+    width: 80%;
+
+}
+
+.about-text-top{
+
+    padding-bottom: 1px;
+
+    line-height: 30px;
+
+
+
+
+}
+
+.about-text-middle{
+
+    padding-bottom: 1px;
+
+    line-height: 30px;
+
+}
+
+
+
+
+.about-text-bottom {
+
+    /* padding-bottom: 40px; */
+
+    line-height: 30px;
+
+}
+
+.title {
+
+    display: flex;
+
+    justify-content: center;
+
+    height: 80vh;
+
+    padding: 30px;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    color: #5D9FBA;
+
+    gap:40px;
+
+    line-height: 30px;
+
+    padding-bottom: 15%;
+
+    
+
+}
+
+.title-left {
+
+    padding-right: 70px;
+
+    font-size: 26px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.music-video {
+
+    padding: 20px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding-bottom: 10%;
+
+}
+
+.music-video video {
+
+    width: 60%;
+
+    padding-top: 60px;
+
+}
+
+
+
+
+.gallery-cover {
+
+width: 100%;
+
+}
+
+.gallery-items {
+
+    display: flex;
+
+    margin-top: 20px;
+
+    justify-content: space-between;
+
+    gap: 20px;
+
+    width: 100%;
+
+
+
+
+}
+
+.g-item {
+
+    width: 50%;
+
+}
+
+.g-item img {
+
+    width: 100%;
+
+
+
+
+}
+
+.lyrics {
+
+    display: flex;
+    font-size: 50px;
+
+    font-family: "hammersmith-one";
+
+    src: url(../assest/hammersmith-one/HammersmithOne-Regular.ttf)
+
+}
+
+
+
+
+.title-right {
+
+    font-family: "hammersmith-one";
+
+    src: url(../assest/hammersmith-one/HammersmithOne-Regular.ttf);
+
+}
+
+.title-left {
+
+    font-family: "galada";
+
+    src: url(../assest/Galada/Galada-Regular.ttf);
+
+}
+
+.another-one {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    height: 30vh;
+
+    font-size: 50px;
+
+    color: #DA9E86;
+
+    font-family: "galada";
+
+    src: url(../assest/Galada/Galada-Regular.ttf);
+
+}
+
+
+
+
+.group-image {
+
+    display: flex;
+
+    width: 60%;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding-left: 350px;
+
+    padding-bottom: 5%; 
+
+}
+
+
+
+
+.group-image img {
+
+    width: 50%;
+
+}
+
+.music {
+
+    display: none;
+
+}
+
+.another-text {
+
+    display: flex;
+
+    flex-direction: column;
+
+    text-align: left;
+
+    /* width: 100%; */
+
+    font-size: 18px;
+
+    line-height: 30px;
+
+    color: #DA9E86;
+
+    gap: 10px;
+
+    padding-left: 33%;
+
+    padding-right: 10%;
+
+    padding-bottom: 10%;
+
+    font-family: "hammersmith-one";
+
+    src: url(../assest/hammersmith-one/HammersmithOne-Regular.ttf)
+
+    
+
+}
+
+.another-text-top {
+
+    padding-bottom: 2%;
+
+    width: 60%;
+
+}
